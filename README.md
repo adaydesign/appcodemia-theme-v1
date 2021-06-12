@@ -21,7 +21,8 @@
 
 # Setup
 
-- coppy file .env.sample to .env and insert your google api key to REACT_APP_GOOGLE_MAP_KEY
+- copy file .env.sample and rename to .env 
+- change your google api key at REACT_APP_GOOGLE_MAP_KEY
 
 ```
 REACT_APP_GOOGLE_MAP_KEY=[your_google_map_key]
