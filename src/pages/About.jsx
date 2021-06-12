@@ -68,7 +68,7 @@ const Location = ({ ...rest }) => {
             <Text color="gray.600">1868  Plainfield Avenue, Syracuse, New York 13202</Text>
             <Flex w="100%" h="550px">
                 <iframe width="100%" loading="lazy" title="demo map"
-                    src="https://www.google.com/maps/embed/v1/view?zoom=12&center=40.7207,-73.7040&key=AIzaSyBxjGFEgiZKusLYl9O3TP1K2DU-yVVGQ1o"></iframe>
+                    src={`https://www.google.com/maps/embed/v1/view?zoom=12&center=40.7207,-73.7040&key=${process.env.REACT_APP_GOOGLE_MAP_KEY}`}></iframe>
             </Flex>
         </VStack>
     )
